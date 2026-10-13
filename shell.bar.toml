@@ -1,0 +1,15 @@
+# Full [bar] section. A shell.<section>.toml REPLACES the generated section
+# outright (no merge), so every key the template defines is repeated here.
+#
+# Glass strip: hyprland.lua blurs behind the omarchy-bar layer. Tinted with
+# lighter_background so it reads as a panel resting on the wallpaper rather
+# than a hole cut in it. Only visible with the bar's own transparent mode off
+# (Omarchy Menu -> Style -> Bar -> Transparency).
+background       = "#141a14"
+background-alpha = 0.6
+text             = "#cfe8cf"
+# Modules calling attention to themselves (recording, alerts, updates).
+active           = "#1fe81f"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28

@@ -1,0 +1,12 @@
+# Full [lock] section — the password field over the blurred wallpaper.
+background       = "#0a0c0a"
+background-alpha = 0.6
+text             = "#cfe8cf"
+placeholder      = "#5a7a5a"
+text-error       = "#ff4d4d"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#ff4d4d"
+border-alpha     = 1.0
+selection        = "#1fe81f"
+selection-alpha  = 0.45

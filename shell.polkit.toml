@@ -1,0 +1,12 @@
+# Full [polkit] section. A password prompt should stand out, so the card stays
+# mostly solid and the scrim darker.
+background       = "#0a0c0a"
+background-alpha = 0.88
+text             = "#cfe8cf"
+text-error       = "#ff4d4d"
+border           = "hyprland.active-border"
+border-error     = "#ff4d4d"
+border-alpha     = 1.0
+scrim            = "#040504"
+scrim-alpha      = 0.45
+accent           = "#1fe81f"

@@ -1,0 +1,6 @@
+# Full [popups] section — every bar flyout (dropdowns, OSD, popup cards).
+background       = "#0a0c0a"
+background-alpha = 0.78
+text             = "#cfe8cf"
+border           = "hyprland.active-border"
+border-alpha     = 0.9

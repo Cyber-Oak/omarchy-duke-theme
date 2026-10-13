@@ -1,0 +1,7 @@
+# Full [notifications] section — frosted cards with the lit green edge.
+background       = "#0a0c0a"
+background-alpha = 0.76
+text             = "#cfe8cf"
+border           = "hyprland.active-border"
+border-alpha     = 0.9
+countdown        = "#1fe81f"

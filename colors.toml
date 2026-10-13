@@ -1,0 +1,50 @@
+# Duke — an Omarchy 4 theme inspired by the 2001 console aesthetic:
+# near-black panels with a faint green cast, one vivid green, and frosted glass.
+#
+# Comments stay on their own lines: omacalc reads this file with a parser that
+# takes the rest of the line as the value, so an inline comment breaks it.
+
+mode = "dark"
+
+# The one loud colour. Same family as hackerman's accent, pushed more vivid.
+accent    = "#1fe81f"
+selection = "#174a17"
+selection_background = "#174a17"
+selection_foreground = "#f0fff0"
+# Comments, line numbers, placeholders: 4.1:1 on background.
+muted     = "#5a7a5a"
+
+# Near-black with a faint green tint: green channel two steps above red/blue.
+background         = "#0a0c0a"
+dark_background    = "#070907"
+darker_background  = "#040504"
+lighter_background = "#141a14"
+
+# Pale mint text: reads as green-on-black without the eye strain of pure green.
+foreground        = "#cfe8cf"
+dark_foreground   = "#8fae8f"
+light_foreground  = "#e2f4e2"
+bright_foreground = "#f0fff0"
+
+# A lit glass edge: bright accent at the top settling into a dim green at the
+# bottom (90deg = top to bottom). Kept in step by hand with hyprland.lua.
+hyprland_active_border   = "rgba(1fe81fee) rgba(0e6e0e99) 90deg"
+hyprland_inactive_border = "rgba(1e2a1e99)"
+
+# ANSI. Green and cyan lean into the accent; red, yellow and blue keep clear
+# hue separation so diagnostics (errors, warnings, info) stay distinguishable.
+red     = "#ff4d4d"
+yellow  = "#e6d23a"
+orange  = "#ff9933"
+green   = "#1fe81f"
+cyan    = "#2ee6b0"
+blue    = "#4d9fff"
+magenta = "#c77dff"
+brown   = "#8a6a3a"
+
+bright_red     = "#ff8080"
+bright_yellow  = "#fff27a"
+bright_green   = "#7dff7d"
+bright_cyan    = "#7cf5d4"
+bright_blue    = "#8cc2ff"
+bright_magenta = "#ddaaff"
