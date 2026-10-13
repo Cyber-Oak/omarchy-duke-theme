@@ -98,6 +98,10 @@ tools/generate-terminals.sh
 python3 -m venv .venv && .venv/bin/pip install pillow numpy
 .venv/bin/python tools/generate-backgrounds.py            # 3840x2160
 .venv/bin/python tools/generate-backgrounds.py --width 1920 --height 1080
+
+# preview.png: opens three foot windows on workspace 9, screenshots, closes them
+# (apply the theme first; nothing else should draw over the wallpaper)
+tools/capture-preview.sh
 ```
 
 `hyprland.lua` is hand-written. If you change `hyprland_active_border` or
