@@ -30,7 +30,7 @@ Requires Omarchy 4 (Hyprland with the Lua config and the Quickshell bar).
 
 ```bash
 # 1. Clone anywhere outside the themes directory
-git clone https://github.com/<you>/omarchy-duke-theme.git ~/Projects/omarchy-duke-theme
+git clone https://github.com/Cyber-Oak/omarchy-duke-theme.git ~/Projects/omarchy-duke-theme
 
 # 2. Link it in as "duke"
 ln -sfn ~/Projects/omarchy-duke-theme ~/.config/omarchy/themes/duke
